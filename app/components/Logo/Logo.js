@@ -1,6 +1,15 @@
 "use client"
 import React from 'react'
 import {motion} from 'framer-motion'
+import Image from 'next/image'
+import Logos from '@/public/logo.png'
+import Logo1 from '@/public/logo (1).png'
+import Logo2 from '@/public/logo (2).png'
+import Logo3 from '@/public/logo (3).png'
+import Logo4 from '@/public/logo (4).png'
+import Logo5 from '@/public/logo (5).png'
+import Logo6 from '@/public/logo (6).png'
+import Logo7 from '@/public/logo (7).png'
 
 function Logo() {
     
@@ -8,14 +17,14 @@ function Logo() {
     <>
     <div 
       className='grid grid-cols-4 gap-2 sm:grid-cols-2 md:grid-cols-8 justify-center m-5 p-5'>
-        <img src='./Logo.png' alt='Logo 1'/>
-        <img src='./Logo (1).png' alt='Logo 2'/>
-        <img src='./Logo (2).png' alt='Logo 3'/>
-        <img src='./Logo (3).png' alt='Logo 4'/>
-        <img src='./Logo (4).png' alt='Logo 5'/>
-        <img src='./Logo (5).png' alt='Logo 6'/>
-        <img src='./Logo (6).png' alt='Logo 7'/>
-        <img src='./Logo (7).png' alt='Logo 8'/>
+        <Image src={Logos} width={100} height={100} alt='Logo 1'/>
+        <Image src={Logo1} width={100} height={100} alt='Logo 2'/>
+        <Image src={Logo2} width={100} height={100} alt='Logo 3'/>
+        <Image src={Logo3} width={100} height={100} alt='Logo 4'/>
+        <Image src={Logo4} width={100} height={100} alt='Logo 5'/>
+        <Image src={Logo5} width={100} height={100} alt='Logo 6'/>
+        <Image src={Logo6} width={100} height={100} alt='Logo 7'/>
+        <Image src={Logo7} width={100} height={100} alt='Logo 8'/>
     </div>
     </>
   )
