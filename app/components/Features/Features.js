@@ -21,8 +21,8 @@ function Features() {
             
 
             <motion.div whileInView={{x:[50,0]}} transition={{duration:0.85 ,ease:easeInOut}} className='m-5 flex flex-col md:flex-row items-center justify-center'>
-                <Image src={cols2} className="p-5" width={350} height={350}/>
-                <Image src={cols1} className="p-5" height={350} width={350}/>
+                <Image src={cols2} className="p-5" width={350} height={350} alt="cols 1"/>
+                <Image src={cols1} className="p-5" height={350} width={350} alt="cols 1"/>
             </motion.div>
         </div>
     </div>
