@@ -2,14 +2,14 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import Image from 'next/image'
-import Logos from '@/public/logo.png'
-import Logo1 from '@/public/logo (1).png'
-import Logo2 from '@/public/logo (2).png'
-import Logo3 from '@/public/logo (3).png'
-import Logo4 from '@/public/logo (4).png'
-import Logo5 from '@/public/logo (5).png'
-import Logo6 from '@/public/logo (6).png'
-import Logo7 from '@/public/logo (7).png'
+import Logos from '@/public/Logo.png'
+import Logo1 from '@/public/Logo (1).png'
+import Logo2 from '@/public/Logo (2).png'
+import Logo3 from '@/public/Logo (3).png'
+import Logo4 from '@/public/Logo (4).png'
+import Logo5 from '@/public/Logo (5).png'
+import Logo6 from '@/public/Logo (6).png'
+import Logo7 from '@/public/Logo (7).png'
 
 function Logo() {
     
