@@ -9,9 +9,11 @@ function Feature() {
     <div className="flex max-w-screen items-center justify-center bg-white text-center mb-34">
         <div className="w-3/4 flex-col justify-center items-center">
         <h1 className="mt-24 md:text-3xl text-2xl font-sans font-semibold overflow-hidden">Elevating Card Program With Citting Edge Technology</h1>
-            <p className="mt-2 from-stone-400 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore explicabo at molestiae c odio.</p>
-            <button className="m-2 rounded-xl text-purple-900 p-4 font-semibold text-white mt-5 flex mx-auto">Compare All Pro Features<BsArrowRight className='mt-1
-            p-.5 arrow-icon'/> </button>
+        <p className="mt-2 from-stone-400 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore explicabo at molestiae c odio.</p>
+
+        <button className="m-2 rounded-xl text-purple-900 p-4 font-semibold mt-5 flex mx-auto">Compare All Pro Features<BsArrowRight className='mt-1
+            p-.5 arrow-icon'/> 
+        </button>
 
 
         <div className="my-20 flex flex-col lg:flex-row xl:flex-row">

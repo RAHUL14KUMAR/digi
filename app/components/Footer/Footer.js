@@ -51,7 +51,7 @@ function Footer() {
       <motion.li whileHover={{ scale: 1.05 }}
       transition={{ duration: 0.3 }} className="text-sm font-semibold text-slate-600 p-1 hover:text-purple-700">Documentation</motion.li>
       <motion.li whileHover={{ scale: 1.05 }}
-      transition={{ duration: 0.3 }}className="text-sm font-semibold text-slate-600 p-1 hover:text-purple-700">comp motion.library</motion.li>
+      transition={{ duration: 0.3 }}className="text-sm font-semibold text-slate-600 p-1 hover:text-purple-700">library</motion.li>
     </ul>
     <ul className="m-2">
       <li className="text-lg font-bold p-1">Legal</li>
@@ -64,7 +64,7 @@ function Footer() {
       <motion.li whileHover={{ scale: 1.05 }}
       transition={{ duration: 0.3 }}className="text-sm font-semibold text-slate-600 p-1 hover:text-purple-700">Affailate Programming</motion.li>
     </ul>
-    <ul className="m-2">
+    <ul className="m-2 overflow-hidden">
       <li className="text-lg font-bold p-1">Support</li>
       <motion.li whileHover={{ scale: 1.05 }}
       transition={{ duration: 0.3 }}className="text-sm font-semibold text-slate-600 p-1 hover:text-purple-700">Help Center</motion.li>
@@ -82,13 +82,13 @@ function Footer() {
         <div className="flex justify-center items-center w-screen">
             <div className="m-4">
                 <div className='flex place-content-center'>
-                    <motion.div whileHover={{translateY:-20}} transition={{ duration: 0.3 }} className='m-2 text-4xl border-2 hover:border-purple-500 rounded-3xl p-2'>
+                    <motion.div whileHover={{translateY:-5}} transition={{ duration: 0.3 }} className='m-2 text-4xl border-2 hover:border-purple-500 rounded-3xl p-2'>
                     <BsGithub/>
                     </motion.div>
-                    <motion.div whileHover={{translateY:-20}} transition={{ duration: 0.3 }}  className='m-2 text-4xl border-2 hover:border-purple-500 rounded-3xl p-2'>
+                    <motion.div whileHover={{translateY:-5}} transition={{ duration: 0.3 }}  className='m-2 text-4xl border-2 hover:border-purple-500 rounded-3xl p-2'>
                     <BsLinkedin/>
                     </motion.div>
-                    <motion.div whileHover={{translateY:-20}} transition={{ duration: 0.3 }}  className='m-2 text-4xl border-2 hover:border-purple-500 rounded-3xl p-2'>
+                    <motion.div whileHover={{translateY:-5}} transition={{ duration: 0.3 }}  className='m-2 text-4xl border-2 hover:border-purple-500 rounded-3xl p-2'>
                     <BsDiscord/>
                     </motion.div>
                 </div>
